@@ -25,13 +25,4 @@ header('content-type: ' . $contentType);
 http_response_code($httpCode);
 
 echo $output;
-
 ?>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
-        if (disclaimer) {
-            disclaimer.remove();
-        }
-    });
-</script>
